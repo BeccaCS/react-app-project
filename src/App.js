@@ -7,7 +7,7 @@ export default function App() {
     <div className="App">
       <div className="Container">
         <h1> Weather App</h1>
-        <Weather />
+        <Weather defaultCity="Lisbon"/>
         <footer>
           This project is created by{" "}
           <a href="https://rebeccaseepaul.netlify.app/" target="_blank">
