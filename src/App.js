@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import Weather from "./Weather";
 import "./App.css";
 
 export default function App() {
@@ -6,7 +7,7 @@ export default function App() {
     <div className="App">
       <div className="Container">
         <h1> Weather App</h1>
-
+        <Weather />
         <footer>
           This project is created by{" "}
           <a href="https://rebeccaseepaul.netlify.app/" target="_blank">
